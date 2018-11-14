@@ -1,0 +1,339 @@
+
+*** Running vivado
+    with args -log main_block_design_side_servo_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_block_design_side_servo_0_0.tcl
+
+
+****** Vivado v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:39 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source main_block_design_side_servo_0_0.tcl -notrace
+Command: synth_design -top main_block_design_side_servo_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15027 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1343.965 ; gain = 82.906 ; free physical = 6915 ; free virtual = 13304
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main_block_design_side_servo_0_0' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ip/main_block_design_side_servo_0_0/synth/main_block_design_side_servo_0_0.vhd:84]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'side_servo_v1_0' declared at '/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0.vhd:5' bound to instance 'U0' of component 'side_servo_v1_0' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ip/main_block_design_side_servo_0_0/synth/main_block_design_side_servo_0_0.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'side_servo_v1_0' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0.vhd:50]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'side_servo_v1_0_S00_AXI' declared at '/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:5' bound to instance 'side_servo_v1_0_S00_AXI_inst' of component 'side_servo_v1_0_S00_AXI' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'side_servo_v1_0_S00_AXI' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:87]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:238]
+INFO: [Synth 8-226] default block is never used [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:368]
+INFO: [Synth 8-3491] module 'main_side_servo' declared at '/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/main_side_servo.vhd:5' bound to instance 'main_side_servo_inst' of component 'main_side_servo' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:402]
+INFO: [Synth 8-638] synthesizing module 'main_side_servo' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/main_side_servo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'main_side_servo' (1#1) [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/main_side_servo.vhd:13]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:233]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:234]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'side_servo_v1_0_S00_AXI' (2#1) [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0_S00_AXI.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'side_servo_v1_0' (3#1) [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/hdl/side_servo_v1_0.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'main_block_design_side_servo_0_0' (4#1) [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ip/main_block_design_side_servo_0_0/synth/main_block_design_side_servo_0_0.vhd:84]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[7]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[6]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[5]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[4]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[3]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[2]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[1]
+WARNING: [Synth 8-3331] design main_side_servo has unconnected port sensor_angle[0]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design side_servo_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1388.590 ; gain = 127.531 ; free physical = 6929 ; free virtual = 13317
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1388.590 ; gain = 127.531 ; free physical = 6928 ; free virtual = 13316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1388.590 ; gain = 127.531 ; free physical = 6928 ; free virtual = 13316
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1719.598 ; gain = 2.000 ; free physical = 6660 ; free virtual = 13045
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6722 ; free virtual = 13113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6722 ; free virtual = 13113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6724 ; free virtual = 13115
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'pwm_right_internal_reg' into 'pwm_left_internal_reg' [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/main_side_servo.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element pwm_right_internal_reg was removed.  [/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.srcs/sources_1/bd/main_block_design/ipshared/a5cb/main_side_servo.vhd:26]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6719 ; free virtual = 13106
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main_side_servo 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module side_servo_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design main_block_design_side_servo_0_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/side_servo_v1_0_S00_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'U0/side_servo_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/side_servo_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/side_servo_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/side_servo_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/side_servo_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/side_servo_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/aw_en_reg) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module main_block_design_side_servo_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/side_servo_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module main_block_design_side_servo_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6703 ; free virtual = 13096
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6553 ; free virtual = 12947
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6550 ; free virtual = 12944
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6546 ; free virtual = 12941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    12|
+|2     |LUT1   |     3|
+|3     |LUT2   |    29|
+|4     |LUT3   |     4|
+|5     |LUT4   |    42|
+|6     |LUT5   |     4|
+|7     |LUT6   |     1|
+|8     |FDRE   |   137|
+|9     |FDSE   |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------------+------------------------+------+
+|      |Instance                         |Module                  |Cells |
++------+---------------------------------+------------------------+------+
+|1     |top                              |                        |   234|
+|2     |  U0                             |side_servo_v1_0         |   234|
+|3     |    side_servo_v1_0_S00_AXI_inst |side_servo_v1_0_S00_AXI |   234|
+|4     |      main_side_servo_inst       |main_side_servo         |    77|
++------+---------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.598 ; gain = 458.539 ; free physical = 6536 ; free virtual = 12938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1719.598 ; gain = 127.531 ; free physical = 6591 ; free virtual = 12993
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1719.605 ; gain = 458.539 ; free physical = 6591 ; free virtual = 12993
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 1719.605 ; gain = 470.094 ; free physical = 6579 ; free virtual = 12983
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/main_block_design_side_servo_0_0_synth_1/main_block_design_side_servo_0_0.dcp' has been generated.

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="main_block_design_side_servo_0_0_synth_1" LaunchDir="/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/main_block_design_side_servo_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="main_block_design_processing_system7_0_0_synth_1" LaunchDir="/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/main_block_design_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="main_block_design_rst_ps7_0_100M_0_synth_1" LaunchDir="/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/main_block_design_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="main_block_design_auto_pc_0_synth_1" LaunchDir="/home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/main_block_design_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

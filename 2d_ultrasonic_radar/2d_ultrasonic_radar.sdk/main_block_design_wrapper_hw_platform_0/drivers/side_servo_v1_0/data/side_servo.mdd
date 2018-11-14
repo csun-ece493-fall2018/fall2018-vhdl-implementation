@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER side_servo
+	OPTION supported_peripherals = (side_servo);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = side_servo;
+END DRIVER

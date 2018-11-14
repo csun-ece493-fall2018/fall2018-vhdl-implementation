@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:39 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Wed Nov 14 01:14:26 2018
+# Process ID: 6628
+# Current directory: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/impl_1
+# Command line: vivado -log main_block_design_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main_block_design_wrapper.tcl -notrace
+# Log file: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/impl_1/main_block_design_wrapper.vdi
+# Journal file: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source main_block_design_wrapper.tcl -notrace

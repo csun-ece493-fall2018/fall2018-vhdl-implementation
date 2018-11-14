@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:39 MDT 2018
+# 
+# Start of session at: Tue Nov 13 23:37:18 2018
+# Process ID: 2705
+# Current directory: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.sdk/webtalk/webtalk.log
+# Journal file: /home/saba/Documents/workstation6/2d_ultrasonic_radar/2d_ultrasonic_radar.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

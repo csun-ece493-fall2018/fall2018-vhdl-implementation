@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xbasic_types.h"
+
+Xuint32 *baseaddr_p = (Xuint32 *)XPAR_SIDE_SERVO_0_S00_AXI_BASEADDR;
+
+int main()
+{
+    init_platform();
+    int i = 0;
+    int j = 0;
+    print("Hello World\n\r");
+    while(j < 10) {
+		*(baseaddr_p+1) = 0x00000001;
+		xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
+		printf("%X",*(baseaddr_p+3));
+		for(i=0;i<3000000; i++);
+		*(baseaddr_p+1) = 0x00000000;
+		for(i=0;i<3000000; i++);
+		j++;
+    }
+    cleanup_platform();
+    return 0;
+}

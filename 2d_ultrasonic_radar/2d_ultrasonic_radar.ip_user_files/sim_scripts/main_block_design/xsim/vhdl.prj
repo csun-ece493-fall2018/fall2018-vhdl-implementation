@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/main_block_design/ipshared/904b/hdl/side_servo_v1_0_S00_AXI.vhd" \
+"../../../bd/main_block_design/ipshared/904b/main_side_servo.vhd" \
+"../../../bd/main_block_design/ipshared/904b/hdl/side_servo_v1_0.vhd" \
+"../../../bd/main_block_design/ip/main_block_design_side_servo_0_0/sim/main_block_design_side_servo_0_0.vhd" \
+"../../../bd/main_block_design/ip/main_block_design_processing_system7_0_0/main_block_design_processing_system7_0_0_sim_netlist.vhdl" \
+"../../../bd/main_block_design/ip/main_block_design_rst_ps7_0_100M_0/sim/main_block_design_rst_ps7_0_100M_0.vhd" \
+"../../../bd/main_block_design/sim/main_block_design.vhd" \
+"../../../bd/main_block_design/ip/main_block_design_auto_pc_0/main_block_design_auto_pc_0_sim_netlist.vhdl" \
+
+nosort
